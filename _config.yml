@@ -1,1 +1,48 @@
-theme: jekyll-theme-cayman
+title: daisukez # The title of the blog
+author: dai # Your name 
+email: tokyo@yahoo.com # your email shown in the footer
+url: https://github.com/daisukez/root # this is your site's root address.
+description: > # A clean and minimalist theme for Jekyll.
+favicon: "./favicon.ico" # set the favicon of the site 
+
+show_excerpts: false # set to true to show excerpts on the homepage
+  
+# Moving date format
+# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
+moving:
+  avatar_url: "./android-chrome-192x192.png" # avatar in about page
+  about_you: daiskeh ですよ # short description about you in about page
+  date_format: "%b %d" # date format of posts in home page
+  back_to: "Home" # In the post page, you have a back button above the title, you can custom the text by yourself.
+
+  # generate social links in about page.
+  social_links:
+    # twitter: 
+    github: dai
+    rss: RSS
+    # dribbble: 
+    # facebook: daiskeh
+    # flickr:   
+    # instagram: 
+    linkedin: osada
+    # pinterest: 
+    # youtube: 
+    # youtube_channel: 
+    # youtube_channel_name: 
+    # telegram: 
+    # googleplus: 
+    # microdotblog: 
+
+    # Mastodon instances
+    # mastodon:
+    # - username: 
+    #   instance: 
+    # - username: 
+    #   instance: 
+
+# Build settings
+remote_theme: huangyz0918/moving # note, please use huangyz0918/moving if you want to publish to Github Pages.
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
